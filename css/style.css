@@ -1,0 +1,605 @@
+/* ---------------------------------General---------------------------------------- */
+/*---------------------------------------------------------------------------------*/
+
+*{
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #36F1CD;
+}
+
+img{
+   width: 100%;
+   transform: scale(1);
+}
+
+
+/* ---------------------------------HEADER---------------------------------------- */
+/*---------------------------------------------------------------------------------*/
+
+.main-nav{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.name{
+    color: rgb(36, 36, 36);
+    text-shadow: -5px 2px 1px rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.9rem;
+}
+
+.menu{
+    width: 90%;
+    margin: auto;
+}
+
+.menu a{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    color:white;
+    text-shadow: -.5px 0.5px 2px rgb(36,36,36,.1);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid rgb(66, 60, 0, 0.2);
+    box-shadow: 0px 0px 7px 4px rgba(66, 60, 0, 0.35);
+    border-radius: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s
+}
+
+.menu a:hover{
+    transition: 0.3s;
+    border: 1px solid rgb(66, 60, 0, 0.4);
+    box-shadow: 0px 0px 10px 4px rgb(31, 31, 31,0.45);
+}
+
+
+/* ---------------------------------User Icon and presentation---------------------------------------- */
+/*  --------------------------------------------------------------------------------------------*/
+.wrap{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+    width: 100%;
+}
+.user-icon{
+    z-index: -1;
+}
+
+.presentation{
+    position: absolute;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    line-height: 1.7rem;
+    hyphens: auto;
+    top: 55%;
+    margin: 5% 5%;
+    z-index: 1;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255, 1);
+}
+
+.bold-presentation{
+    font-size: 1.25rem;
+    hyphens: auto;
+    letter-spacing: 2px;
+    text-shadow: -3px 2px rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+/* ---------------------------------Main part---------------------------------------- */
+/*  ----------------------------------------------------------------------------------*/
+
+/* -------------------Portfolio header-----------------  */
+
+.portfolio-header{
+    padding-top: 1.5rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.portfolio-text{
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 35px 10% 25px 10%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow:  -5px 2px 1px rgba(255, 218, 6, 1);
+}
+
+.articles{
+    margin-top: 6rem;
+    background-color: aliceblue;
+    border: 0px solid transparent;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    -webkit-box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.3); 
+    padding-bottom: 3rem;
+}
+
+.wrapper img{
+    border: 8px solid #ccc;
+    border-radius: 20px;
+    transform: scale(0.8);
+}
+
+.page-description{
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 5%;
+    line-height: 1.7rem;
+    padding-bottom: 75px;   
+}
+
+.lastpage-description{
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 5%;
+    line-height: 1.7rem;
+    padding-bottom: 30px;
+}
+
+.article-title{
+    color: rgb(36, 36, 36);
+    text-shadow: 1px 1px 2px rgb(36,36,36, .3);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: -5px;
+}
+/* -------------------------------SKILLS------------------------------------- */
+
+.skill-title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 35px 10% 3rem 10%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow:  -5px 2px 1px rgb(255, 255, 255);
+}
+
+.icon-wrapper{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper-skill{
+    margin: 0 1rem 1rem;
+}
+.wrapper-skill img{
+    width: 40%;
+    margin: 0 auto;
+}
+.article-skill-title{
+    color: aliceblue;
+    text-shadow: 1px 1px 2px rgb(36,36,36, .3);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+.skill-description{
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 5%;
+    line-height: 1.7rem;
+    padding-bottom: 3rem;
+}
+
+/* -------------------------------Contact------------------------------------- */
+.contact{
+    background-color: #39A0ED;
+    border: 0px solid transparent;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    -webkit-box-shadow: -1px -5px 13px -1px rgba(0,0,0,0.34); 
+    box-shadow: -1px -5px 13px -1px rgba(0,0,0,0.34);
+    padding-bottom: 5rem;
+}
+
+.contact-title{
+    margin-top: -1.5rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    text-shadow: -5px 2px 1px rgb(255, 255, 255);
+}
+
+.contact-text{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    margin: 0 5%;
+    line-height: 1.7rem;
+    text-align: center;   
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 30px 30px 62px 30px;
+}
+
+.contacts{
+    margin-top: 2rem;
+    text-align: center;
+    list-style: none;
+}
+.bold-text{
+    font-weight: 700;
+    font-size: 1.25rem;
+    hyphens: auto;
+    letter-spacing: 2px;
+    text-shadow: -3px 2px rgb(255, 218, 6);
+    font-weight: 700;
+}
+.bold-text-tel{
+    display: block;
+    font-weight: 700;
+    font-size: 1.25rem;
+    hyphens: auto;
+    letter-spacing: 2px;
+    text-shadow: -3px 2px rgb(255, 218, 6);
+    font-weight: 700;
+}
+
+.bold-text-mail{
+    font-weight: 700;
+    font-size: 1.25rem;
+    hyphens: auto;
+    letter-spacing: 2px;
+    text-shadow: -3px 2px rgb(255, 218, 6);
+    font-weight: 700;
+}
+
+.phone-number{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.phone-number, .mail{
+    font-size: 1.2rem;
+}
+
+.mail-text{
+    font-size: 0.8rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* -------------------------------FOOTER------------------------------------- */
+.menu-bottom{
+    display: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5% 8% 5%;
+    -webkit-box-shadow: -1px -5px 13px -1px rgba(0,0,0,0.34); 
+    box-shadow: -1px -5px 13px -1px rgba(0,0,0,0.34);
+}
+footer p{
+    text-shadow:-3px 2px white;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+footer a{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 0.55rem;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* -------------------------------MEDIA------------------------------------- */
+
+@media screen and (min-width:768px){
+    
+    /* -------------------------------Menù------------------------------------- */
+    .name{
+        padding-top: 1.75rem;
+        font-size: 2rem;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu a{
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        border: none;
+        border-bottom: 3px solid rgb(255, 248, 248);
+        box-shadow: none;
+    }
+
+    .menu a:hover{
+        border: none;
+        border-bottom: 3px solid rgb(36, 36, 36);
+        box-shadow: none;
+        transition: 0.5s;
+    }
+
+     /* -------------------------------User icon and presentation------------------------------------- */
+    
+    .presentation{
+        position: relative;
+        display: block;
+        width: 90%;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 0 0 0 5rem;
+        padding-right: 0;
+        top: 0rem;
+        float: right;
+        text-align:left;
+    }
+    .bold-presentation{
+        font-size: 1.5rem;
+    }
+    .wrap{
+        display: flex;
+        flex-flow: row-reverse; 
+    }
+    .user-icon{
+        position: relative;
+        margin-left: 0;
+        width: 50%;
+        height: 50%;
+    }
+
+    /*-------------------------------Portfolio------------------------------------- */
+    .display-medium-screen{
+        display: flex;
+    }
+    
+    .marketing-page, .travel-app-page, .photogallery-page{
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .articles{
+        margin-top: 0rem;   
+        padding-bottom: 1rem; 
+    }
+
+    .portfolio-text{
+        font-size: 2.5rem;
+    }
+
+    .article-title{
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+
+    .page-description{
+        font-size: 1.1rem;
+    }
+
+    .lastpage-description{
+        font-size: 1.1rem;
+    }
+
+    /*-------------------------------skills------------------------------------- */
+    .skill-title{
+        font-size: 2.5rem;
+        margin: 4rem;
+    }
+
+    .flex-big-screen-skill{
+        display: flex;
+        margin: 0 1rem;
+    }
+
+    .skill-description{
+        padding: 0 5% 4.5rem;
+    }
+    .article-skill-title{
+        font-size: 1.75rem;
+    }
+
+    .wrapper-skill{
+        margin: 0 1rem 1rem;
+    }
+    .wrapper-skill img{
+        width: 30%;
+    }
+    /*-------------------------------contact------------------------------------- */
+    
+    .contact-text{
+        padding: 30px 80px 62px 80px;
+    }
+
+    .contact-text p{
+        font-size: 1.25rem;
+        letter-spacing: 1.5px;
+        padding-bottom: 1rem;
+    }
+
+    .bold-text{
+        font-size: 1.25rem;
+    }
+    .bold-text-tel{
+        display: inline;
+        font-size: 1.25rem;
+    }
+    .bold-text-mail{
+        font-size: 1.25rem;
+    }
+
+    .mail-text{
+        font-size: 1.25rem;
+    }
+    
+    .phone-number{
+        font-size: 1.25rem;
+    }
+
+
+ /*-------------------------------footer------------------------------------- */
+    .menu-bottom{
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        text-shadow: -.5px 0.5px 2px rgb(36,36,36,.1);
+        font-weight: 800;
+        border-radius: 8px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .menu-bottom a{
+        display: inline;
+        padding: 0.4rem 0.9rem;
+        margin: 0 0.3rem;
+        font-size: 1rem;
+    }
+    footer{
+        display: flex;
+        padding: 4% 2% 6% 3%;;
+    }
+
+    footer a{
+        display: none;
+    }
+
+    footer p{
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+     /* -------------------------------Menù------------------------------------- */
+     .name{
+        font-size: 2rem;
+        padding-bottom: 4%;
+    }
+
+    .menu{
+        margin-right: 0;
+        width: 500px;
+        justify-content: space-evenly;
+    }
+
+    .menu a{
+        display: inline-block;
+        margin-right: 2%;
+        font-size: 1rem;
+        border-radius: 0;
+    }
+    .menu a:last-child{
+        margin-right: 0%;
+    }
+
+    .main-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+     /* -------------------------------User icon and presentation------------------------------------- */
+    .wrap{
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+    
+    .presentation{
+        text-align: center;
+        margin-left: 5rem;
+        margin-top: 6%;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        letter-spacing: 2px;
+    }
+    .bold-presentation{
+        font-size: 1.5rem;
+    }
+
+    .user-icon{
+        width: 55%;
+    }
+    /*-------------------------------Portfolio------------------------------------- */
+    .display-medium-screen{
+        display: block;
+    }
+
+    .flex-big-screen{
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .articles{
+        margin-top: 0rem;    
+    }
+
+    .portfolio-text{
+        font-size: 3rem;
+        padding: 2rem;
+    }
+
+    .article-title{
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    .page-description{
+        font-size: 1rem;
+        padding: 0 1rem 3rem;
+    }
+
+    .lastpage-description{
+        font-size: 1rem;
+        padding: 0 1rem 3rem;
+    }
+
+    .wrapper img{
+        width: 60%;
+        margin: 0 20%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .portfolio-text{
+        padding: 2rem 0 0;
+    }
+    /*-------------------------------skill------------------------------------- */
+    .skill-description{
+        padding: 0 10% 5rem;
+    }
+    .flex-big-screen-skill{
+        display: flex;
+        margin: 0 4.5rem;
+    }
+    /*-------------------------------contact------------------------------------- */
+.contact-text{
+    padding: 3% 15% 6%;
+}
+    /*-------------------------------footer------------------------------------- */
+    footer{
+        padding: 4% 6% 4% 6%;;
+    }
+}
